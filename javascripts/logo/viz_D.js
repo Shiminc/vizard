@@ -1,4 +1,4 @@
-import {chart, svg, innerChart, chart_heatmap, margin, xScale, yScale, colorScale, initiatiateColor} from './globalVar.js'
+import {chart, svg, innerChart, chart_heatmap, margin, xScale, yScale, colorScale, initiatiateColor, ARDcolor} from './globalVar.js'
 
 export function createD(data){
     console.table(data);
@@ -12,7 +12,7 @@ export function createD(data){
     .attr('class','line-D')
     .attr('d', lineGenerator_D(data))
     .attr('fill','none')
-    .attr('stroke','red')
+    .attr('stroke',ARDcolor)
     .attr('stroke-width','0.5px')
 
 
@@ -26,6 +26,6 @@ export function createD(data){
     .attr('class','curve-D')
     .attr('d', curveGenerator_D(data))
     .attr('fill','none')
-    .attr('stroke','red')
+    .attr('stroke',ARDcolor)
     .attr('stroke-width','0.5px')
 }

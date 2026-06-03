@@ -29,6 +29,7 @@ export const innerChart = svg.append('g')
             .attr('transform', d=> `translate(${margin.horizontal}, ${margin.vertical})`)
 
 
+export const ARDcolor = '#e6550d'
 
 
 

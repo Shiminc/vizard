@@ -1,4 +1,4 @@
-import {chart, svg, innerChart, chart_heatmap, margin, xScale, yScale, colorScale, initiatiateColor} from './globalVar.js'
+import {chart, svg, innerChart, chart_heatmap, margin, xScale, yScale, colorScale, initiatiateColor, ARDcolor} from './globalVar.js'
 
 export function createA(data){
     console.table(data);
@@ -11,7 +11,7 @@ export function createA(data){
     .attr('class','line-A')
     .attr('d', lineGenerator_A(data))
     .attr('fill','none')
-    .attr('stroke','red')
+    .attr('stroke',ARDcolor)
     .attr('stroke-width','0.5px')
 
 
