@@ -53,15 +53,18 @@ header {
 
 }
 
+.grid-about a:visited,
 .grid-about a:link{
     color: #fdae6b;
     text-decoration: none;
 
 }
 
-.grid-about a:visited{
-    color: #fdae6b;
+.grid-project a:visited,
+.grid-project a:link{
+    color: black;
     text-decoration: none;
+
 }
 
 .grid-tagline{
