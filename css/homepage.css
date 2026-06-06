@@ -123,7 +123,7 @@ header {
 }
 
 .project-title {
-    display: inline;
+    /* display: inline; */
     font-size: 1.5rem;
     padding: 1rem;
     /* justify-content: center; */
@@ -133,6 +133,8 @@ header {
     /* background-color:skyblue; */
 
 }
+
+
 
 .grid-project hr{
     width:50%;
