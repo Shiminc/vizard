@@ -5,7 +5,7 @@ import {createR} from './viz_R.js'
 import {createD} from './viz_D.js'
 import {createPoint} from './viz_point.js'
 
-d3.json('../../data/viz_coordinates.json').then(
+d3.json('../data/viz_coordinates.json').then(
   dataset => {
   const heatmap_data = dataset.filter(
                 data => (data.heatmap == 1));
