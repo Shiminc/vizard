@@ -36,7 +36,7 @@
 
 .grid-about {
     font-size: 1.5rem;
-    color: gray;
+    color: #fdae6b;
     /* margin-top: auto;
     margin-bottom: 0;
     margin-left: auto; 
@@ -50,11 +50,15 @@
 
 .grid-about a:link{
     color: gray;
+    color: #fdae6b;
+
     text-decoration: none;
 }
 
 .grid-about a:visited{
     color: rgb(52, 49, 49);
+    color: #fdae6b;
+
     text-decoration: none;
 }
 
