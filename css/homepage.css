@@ -100,9 +100,10 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     /* grid-template-columns: 1fr 1fr; */
-    grid-gap: 10%;
     grid-template-rows: repeat(auto-fit,minmax(300px,1fr));
     /* background: gray; */
+    column-gap: 10%;
+    row-gap:20%;
     margin:5%;
 
 
@@ -110,6 +111,8 @@ header {
 
 .grid-project {
     background-color:#feedde;
+    display: flex;
+
 } 
 
 .project-preview-container {
@@ -126,7 +129,7 @@ header {
 }
 
 .project-title {
-    /* display: inline; */
+    display: flex;
     font-size: 1.5rem;
     padding: 1rem;
     /* justify-content: center; */
