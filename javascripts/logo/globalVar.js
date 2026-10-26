@@ -5,7 +5,7 @@ export const chart_heatmap = {
 }
 
 export const margin = {
-    'horizontal': 20,
+    'horizontal': 10,
     'vertical':20
 
 }
